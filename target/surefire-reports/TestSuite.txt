@@ -1,30 +1,30 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 32.283 s <<< FAILURE! - in TestSuite
-loginTest(com.openCart.testCases.TC_LoginTest_001)  Time elapsed: 11.696 s  <<< FAILURE!
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 32.961 s <<< FAILURE! - in TestSuite
+loginTest(com.openCart.testCases.TC_LoginTest_001)  Time elapsed: 11.672 s  <<< FAILURE!
 org.openqa.selenium.ElementNotInteractableException: 
 element not interactable
   (Session info: chrome=98.0.4758.82)
 Build info: version: '4.0.0', revision: '3a21814679'
 System info: host: 'DESKTOP-Q934L8H', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [28cf4e27b6b59bac72e08495c27034f2, clickElement {id=ec20ffc5-a742-4933-8ff4-cb33fbec57ae}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Windows\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:63821}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63821/devtoo..., se:cdpVersion: 98.0.4758.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (28cf4e27b6b59bac72e08495c27034f2)] -> xpath: //span[text()= 'My Account']]
-Session ID: 28cf4e27b6b59bac72e08495c27034f2
+Command: [781fd5c1c3d5142b1368ff6e91675069, clickElement {id=ceef8280-542b-49c3-9806-2a1733813356}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Windows\TEMP\scoped_dir4...}, goog:chromeOptions: {debuggerAddress: localhost:57376}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57376/devtoo..., se:cdpVersion: 98.0.4758.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (781fd5c1c3d5142b1368ff6e91675069)] -> xpath: //span[text()= 'My Account']]
+Session ID: 781fd5c1c3d5142b1368ff6e91675069
 	at com.openCart.testCases.TC_LoginTest_001.loginTest(TC_LoginTest_001.java:25)
 
-test_account_Registration(com.openCart.testCases.TC_002_AccountRegistration)  Time elapsed: 11.631 s  <<< FAILURE!
+test_account_Registration(com.openCart.testCases.TC_002_AccountRegistration)  Time elapsed: 11.736 s  <<< FAILURE!
 org.openqa.selenium.ElementNotInteractableException: 
 element not interactable
   (Session info: chrome=98.0.4758.82)
 Build info: version: '4.0.0', revision: '3a21814679'
 System info: host: 'DESKTOP-Q934L8H', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [446b3d4c17ea9b6895d596ab4d1ea005, clickElement {id=7377a9b4-f026-4d7b-8ca3-b047e9c44f3d}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Windows\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:63850}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63850/devtoo..., se:cdpVersion: 98.0.4758.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (446b3d4c17ea9b6895d596ab4d1ea005)] -> xpath: //span[text()= 'My Account']]
-Session ID: 446b3d4c17ea9b6895d596ab4d1ea005
+Command: [3f7f79fd279971c9f455122057beb41b, clickElement {id=3a2ab918-e14c-4774-a432-0f161cf2cfe1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Windows\TEMP\scoped_dir6...}, goog:chromeOptions: {debuggerAddress: localhost:57405}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57405/devtoo..., se:cdpVersion: 98.0.4758.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (3f7f79fd279971c9f455122057beb41b)] -> xpath: //span[text()= 'My Account']]
+Session ID: 3f7f79fd279971c9f455122057beb41b
 	at com.openCart.testCases.TC_002_AccountRegistration.test_account_Registration(TC_002_AccountRegistration.java:26)
 

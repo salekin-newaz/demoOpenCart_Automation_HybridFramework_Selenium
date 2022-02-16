@@ -2,7 +2,7 @@
 <testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-02-14T13:08:14 BDT" name="Suite" finished-at="2022-02-14T13:08:45 BDT" duration-ms="31726">
+  <suite started-at="2022-02-14T19:45:33 BDT" name="Suite" finished-at="2022-02-14T19:46:05 BDT" duration-ms="32380">
     <groups>
       <group name="regression">
         <method signature="TC_002_AccountRegistration.test_account_Registration()[pri:0, instance:com.openCart.testCases.TC_002_AccountRegistration@10163d6]" name="test_account_Registration" class="com.openCart.testCases.TC_002_AccountRegistration"/>
@@ -11,9 +11,9 @@
         <method signature="TC_002_AccountRegistration.test_account_Registration()[pri:0, instance:com.openCart.testCases.TC_002_AccountRegistration@10163d6]" name="test_account_Registration" class="com.openCart.testCases.TC_002_AccountRegistration"/>
       </group> <!-- master -->
     </groups>
-    <test started-at="2022-02-14T13:08:14 BDT" name="Test" finished-at="2022-02-14T13:08:45 BDT" duration-ms="31726">
+    <test started-at="2022-02-14T19:45:33 BDT" name="Test" finished-at="2022-02-14T19:46:05 BDT" duration-ms="32380">
       <class name="com.openCart.testCases.TC_LoginTest_001">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.openCart.testCases.TC_LoginTest_001@a2431d0]" started-at="2022-02-14T13:08:14 BDT" name="setup" finished-at="2022-02-14T13:08:18 BDT" duration-ms="4128" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.openCart.testCases.TC_LoginTest_001@a2431d0]" started-at="2022-02-14T19:45:33 BDT" name="setup" finished-at="2022-02-14T19:45:38 BDT" duration-ms="4716" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -24,7 +24,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest()[pri:0, instance:com.openCart.testCases.TC_LoginTest_001@a2431d0]" started-at="2022-02-14T13:08:18 BDT" name="loginTest" finished-at="2022-02-14T13:08:30 BDT" duration-ms="11687" status="FAIL">
+        <test-method signature="loginTest()[pri:0, instance:com.openCart.testCases.TC_LoginTest_001@a2431d0]" started-at="2022-02-14T19:45:38 BDT" name="loginTest" finished-at="2022-02-14T19:45:49 BDT" duration-ms="11663" status="FAIL">
           <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
               <![CDATA[element not interactable
@@ -32,10 +32,10 @@
 Build info: version: '4.0.0', revision: '3a21814679'
 System info: host: 'DESKTOP-Q934L8H', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [28cf4e27b6b59bac72e08495c27034f2, clickElement {id=ec20ffc5-a742-4933-8ff4-cb33fbec57ae}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Windows\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:63821}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63821/devtoo..., se:cdpVersion: 98.0.4758.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (28cf4e27b6b59bac72e08495c27034f2)] -> xpath: //span[text()= 'My Account']]
-Session ID: 28cf4e27b6b59bac72e08495c27034f2]]>
+Command: [781fd5c1c3d5142b1368ff6e91675069, clickElement {id=ceef8280-542b-49c3-9806-2a1733813356}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Windows\TEMP\scoped_dir4...}, goog:chromeOptions: {debuggerAddress: localhost:57376}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57376/devtoo..., se:cdpVersion: 98.0.4758.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (781fd5c1c3d5142b1368ff6e91675069)] -> xpath: //span[text()= 'My Account']]
+Session ID: 781fd5c1c3d5142b1368ff6e91675069]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
@@ -43,10 +43,10 @@ Session ID: 28cf4e27b6b59bac72e08495c27034f2]]>
 Build info: version: '4.0.0', revision: '3a21814679'
 System info: host: 'DESKTOP-Q934L8H', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [28cf4e27b6b59bac72e08495c27034f2, clickElement {id=ec20ffc5-a742-4933-8ff4-cb33fbec57ae}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Windows\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:63821}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63821/devtoo..., se:cdpVersion: 98.0.4758.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (28cf4e27b6b59bac72e08495c27034f2)] -> xpath: //span[text()= 'My Account']]
-Session ID: 28cf4e27b6b59bac72e08495c27034f2
+Command: [781fd5c1c3d5142b1368ff6e91675069, clickElement {id=ceef8280-542b-49c3-9806-2a1733813356}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Windows\TEMP\scoped_dir4...}, goog:chromeOptions: {debuggerAddress: localhost:57376}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57376/devtoo..., se:cdpVersion: 98.0.4758.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (781fd5c1c3d5142b1368ff6e91675069)] -> xpath: //span[text()= 'My Account']]
+Session ID: 781fd5c1c3d5142b1368ff6e91675069
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -106,13 +106,13 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.openCart.testCases.TC_LoginTest_001@a2431d0]" started-at="2022-02-14T13:08:30 BDT" name="tearDown" finished-at="2022-02-14T13:08:30 BDT" duration-ms="589" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.openCart.testCases.TC_LoginTest_001@a2431d0]" started-at="2022-02-14T19:45:49 BDT" name="tearDown" finished-at="2022-02-14T19:45:50 BDT" duration-ms="598" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.openCart.testCases.TC_LoginTest_001 -->
       <class name="com.openCart.testCases.TC_002_AccountRegistration">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.openCart.testCases.TC_002_AccountRegistration@10163d6]" started-at="2022-02-14T13:08:30 BDT" name="setup" finished-at="2022-02-14T13:08:33 BDT" duration-ms="3074" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.openCart.testCases.TC_002_AccountRegistration@10163d6]" started-at="2022-02-14T19:45:50 BDT" name="setup" finished-at="2022-02-14T19:45:53 BDT" duration-ms="3030" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -123,7 +123,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_account_Registration()[pri:0, instance:com.openCart.testCases.TC_002_AccountRegistration@10163d6]" started-at="2022-02-14T13:08:33 BDT" name="test_account_Registration" finished-at="2022-02-14T13:08:45 BDT" duration-ms="11630" status="FAIL">
+        <test-method signature="test_account_Registration()[pri:0, instance:com.openCart.testCases.TC_002_AccountRegistration@10163d6]" started-at="2022-02-14T19:45:53 BDT" name="test_account_Registration" finished-at="2022-02-14T19:46:05 BDT" duration-ms="11733" status="FAIL">
           <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
               <![CDATA[element not interactable
@@ -131,10 +131,10 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
 Build info: version: '4.0.0', revision: '3a21814679'
 System info: host: 'DESKTOP-Q934L8H', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [446b3d4c17ea9b6895d596ab4d1ea005, clickElement {id=7377a9b4-f026-4d7b-8ca3-b047e9c44f3d}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Windows\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:63850}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63850/devtoo..., se:cdpVersion: 98.0.4758.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (446b3d4c17ea9b6895d596ab4d1ea005)] -> xpath: //span[text()= 'My Account']]
-Session ID: 446b3d4c17ea9b6895d596ab4d1ea005]]>
+Command: [3f7f79fd279971c9f455122057beb41b, clickElement {id=3a2ab918-e14c-4774-a432-0f161cf2cfe1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Windows\TEMP\scoped_dir6...}, goog:chromeOptions: {debuggerAddress: localhost:57405}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57405/devtoo..., se:cdpVersion: 98.0.4758.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (3f7f79fd279971c9f455122057beb41b)] -> xpath: //span[text()= 'My Account']]
+Session ID: 3f7f79fd279971c9f455122057beb41b]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
@@ -142,10 +142,10 @@ Session ID: 446b3d4c17ea9b6895d596ab4d1ea005]]>
 Build info: version: '4.0.0', revision: '3a21814679'
 System info: host: 'DESKTOP-Q934L8H', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [446b3d4c17ea9b6895d596ab4d1ea005, clickElement {id=7377a9b4-f026-4d7b-8ca3-b047e9c44f3d}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Windows\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:63850}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63850/devtoo..., se:cdpVersion: 98.0.4758.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (446b3d4c17ea9b6895d596ab4d1ea005)] -> xpath: //span[text()= 'My Account']]
-Session ID: 446b3d4c17ea9b6895d596ab4d1ea005
+Command: [3f7f79fd279971c9f455122057beb41b, clickElement {id=3a2ab918-e14c-4774-a432-0f161cf2cfe1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Windows\TEMP\scoped_dir6...}, goog:chromeOptions: {debuggerAddress: localhost:57405}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57405/devtoo..., se:cdpVersion: 98.0.4758.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (3f7f79fd279971c9f455122057beb41b)] -> xpath: //span[text()= 'My Account']]
+Session ID: 3f7f79fd279971c9f455122057beb41b
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -205,7 +205,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_account_Registration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.openCart.testCases.TC_002_AccountRegistration@10163d6]" started-at="2022-02-14T13:08:45 BDT" name="tearDown" finished-at="2022-02-14T13:08:45 BDT" duration-ms="578" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.openCart.testCases.TC_002_AccountRegistration@10163d6]" started-at="2022-02-14T19:46:05 BDT" name="tearDown" finished-at="2022-02-14T19:46:05 BDT" duration-ms="601" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

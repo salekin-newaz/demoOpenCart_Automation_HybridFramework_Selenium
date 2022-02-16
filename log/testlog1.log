@@ -115,3 +115,38 @@
 2022-02-14 13:45:45,040 [main] INFO OpenCart - Clicked on Continue 
 2022-02-14 13:45:45,075 [main] INFO OpenCart - Account Registration Success 
 2022-02-14 13:45:45,077 [main] INFO OpenCart -  Finished TC_001_AccountRegistration 
+2022-02-14 19:44:12,030 [main] INFO OpenCart - URL is opened
+2022-02-14 19:44:17,283 [main] INFO OpenCart - Click on My Account
+2022-02-14 19:44:18,792 [main] INFO OpenCart - Click on Login
+2022-02-14 19:44:27,600 [main] INFO OpenCart - Starting Account Registration
+2022-02-14 19:44:29,055 [main] INFO OpenCart - URL is opened
+2022-02-14 19:44:29,250 [main] INFO OpenCart - Clicked on My Account
+2022-02-14 19:44:32,778 [main] INFO OpenCart - Clicked on Register
+2022-02-14 19:44:32,931 [main] INFO OpenCart - Provided Last Name 
+2022-02-14 19:44:33,014 [main] INFO OpenCart - Provided Email 
+2022-02-14 19:44:33,083 [main] INFO OpenCart - Provided Telephone 
+2022-02-14 19:44:33,148 [main] INFO OpenCart - Provided Password 
+2022-02-14 19:44:33,220 [main] INFO OpenCart - Provided Confrmed Password 
+2022-02-14 19:44:33,280 [main] INFO OpenCart - Set Privacy Policy 
+2022-02-14 19:44:36,035 [main] INFO OpenCart - Clicked on Continue 
+2022-02-14 19:44:36,072 [main] INFO OpenCart - Account Registration Success 
+2022-02-14 19:44:36,074 [main] INFO OpenCart -  Finished TC_001_AccountRegistration 
+2022-02-14 19:45:39,763 [main] INFO OpenCart - URL is opened
+2022-02-14 19:45:53,589 [main] INFO OpenCart - Starting Account Registration
+2022-02-14 19:45:55,102 [main] INFO OpenCart - URL is opened
+2022-02-16 15:14:47,377 [main] INFO OpenCart - URL is opened
+2022-02-16 15:14:52,865 [main] INFO OpenCart - Click on My Account
+2022-02-16 15:14:54,429 [main] INFO OpenCart - Click on Login
+2022-02-16 15:15:03,837 [main] INFO OpenCart - Starting Account Registration
+2022-02-16 15:15:05,347 [main] INFO OpenCart - URL is opened
+2022-02-16 15:15:05,709 [main] INFO OpenCart - Clicked on My Account
+2022-02-16 15:15:10,077 [main] INFO OpenCart - Clicked on Register
+2022-02-16 15:15:10,361 [main] INFO OpenCart - Provided Last Name 
+2022-02-16 15:15:10,513 [main] INFO OpenCart - Provided Email 
+2022-02-16 15:15:10,694 [main] INFO OpenCart - Provided Telephone 
+2022-02-16 15:15:10,920 [main] INFO OpenCart - Provided Password 
+2022-02-16 15:15:11,145 [main] INFO OpenCart - Provided Confrmed Password 
+2022-02-16 15:15:11,345 [main] INFO OpenCart - Set Privacy Policy 
+2022-02-16 15:15:14,427 [main] INFO OpenCart - Clicked on Continue 
+2022-02-16 15:15:14,544 [main] INFO OpenCart - Account Registration Success 
+2022-02-16 15:15:14,550 [main] INFO OpenCart -  Finished TC_001_AccountRegistration 
